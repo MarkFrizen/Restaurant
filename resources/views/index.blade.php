@@ -32,15 +32,15 @@
   <div class="menuTeam">
     <div class="container">
       <div class="row">
-        <a class="menu__p col" href="/index">HOME</a>
-        <a class="menu__p col" href="/aboutus">ABOUT</a>
-        <a class="menu__p col" href="/masterchef">TEAM</a>
-        <a class="menu__p col" href="/bookatable">BOOKING</a>
+        <a class="menu__a col" href="/index">HOME</a>
+        <a class="menu__a col" href="/aboutus">ABOUT</a>
+        <a class="menu__a col" href="/masterchef">TEAM</a>
+        <a class="menu__a col" href="/bookatable">BOOKING</a>
         <img class="menu__img col-2" src="/storage/img/Vector.svg">
-        <a class="menu__p col" href="/delicious_menu">MENU</a>
-        <a class="menu__p col" href="/pancakes">GALERIE</a>
-        <a class="menu__p col" href="/PrivateEvents">EVENTS</a>
-        <a class="menu__p col" href="/contact">CONTACT</a>
+        <a class="menu__a col" href="/delicious_menu">MENU</a>
+        <a class="menu__a col" href="/pancakes">GALERIE</a>
+        <a class="menu__a col" href="/PrivateEvents">EVENTS</a>
+        <a class="menu__a col" href="/contact">CONTACT</a>
       </div>
     </div>
   </div>
@@ -53,14 +53,12 @@
           <p class="text-center mainContent__p">RESTAURANT</p>
           <p class="text-center tenor-sans-regular mainContent__p">HUNGRY PEOPLE</p>
           <div class="container">
-              <ul class="nav raw">
+              <ul class="nav row">
                 <li class="col-4"></li>
-                <li class="nav-item col bookTable ml-3">
-                  <a class="nav-link mainContent__a" href="/views/bookatable.html">BOOK TABLE</a>
-                </li>
-                <li class="col"></li>
+                <li class="nav-item col bookTable">
+                  <a class="nav-link mainContent__a rounded-1" href="/views/bookatable.html">BOOK TABLE</a>
                 <li class="nav-item col explore">
-                  <a class="nav-link mainContent__a" href="#">EXPLORE</a>
+                  <a class="nav-link mainContent__a rounded-1" href="#">EXPLORE</a>
                 </li>
                 <li class="col-4"></li>
               </ul>
@@ -72,9 +70,16 @@
           <p class="mainContent__p"><img src="/storage/img/dzen_logo_2.svg" width="30" height="30"></p>
         </div>
       </div>
+        <div class="row">
+            <div class="col arrowButton">
+              <p class="text-center mainContent__p">
+                  <a href="/aboutus"><img src="/storage/img/Стрелка.png" width="60" height="60"></a>
+              </p>
+            </div>
+        </div>
     </div>
   </div>
-  <p class="bookTable text-center mainContent__p"><img src="/storage/img/Стрелка.png" width="60" height="60"></p>
+
 </body>
 
 </html>
