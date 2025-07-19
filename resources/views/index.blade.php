@@ -1,12 +1,10 @@
 <!doctype html>
 <html class="no-js" lang="">
-
 <head>
-
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Гл.страница ресторана</title>
-
+  <link rel="stylesheet" href="{{ '/storage/css/style.css' }}">
   <meta name="description" content="">
 
   <meta property="og:title" content="">
@@ -19,7 +17,6 @@
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" href="/icon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="../icon.png"/>
-  <link rel="stylesheet" href="../../storage/app/public/css/style.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,15 +32,15 @@
   <div class="menuTeam">
     <div class="container">
       <div class="row">
-        <a class="menu__p col">HOME</a>
-        <a class="menu__p col" href="/views/aboutus.html">ABOUT</a>
-        <p class="menu__p col">TEAM</p>
-        <p class="menu__p col">BOOKING</p>
-        <img class="menu__img col-2" src="/img/Vector.svg">
-        <p class="menu__p col">MENU</p>
-        <p class="menu__p col">GALERIE</p>
-        <p class="menu__p col">EVENTS</p>
-        <p class="menu__p col">CONTACT</p>
+        <a class="menu__p col" href="/index">HOME</a>
+        <a class="menu__p col" href="/aboutus">ABOUT</a>
+        <a class="menu__p col" href="/masterchef">TEAM</a>
+        <a class="menu__p col" href="/bookatable">BOOKING</a>
+        <img class="menu__img col-2" src="/storage/img/Vector.svg">
+        <a class="menu__p col" href="/delicious_menu">MENU</a>
+        <a class="menu__p col" href="/pancakes">GALERIE</a>
+        <a class="menu__p col" href="/PrivateEvents">EVENTS</a>
+        <a class="menu__p col" href="/contact">CONTACT</a>
       </div>
     </div>
   </div>
@@ -70,15 +67,14 @@
           </div>
         </div>
         <div class="col pt-5">
-          <p class="mainContent__p"><img src="/img/th.jpeg" width="30" height="30"></p>
-          <p class="mainContent__p"><img src="/img/oDNO2.png" width="30" height="30"></p>
-          <p class="mainContent__p"><img src="/img/dzen_logo_2.svg" width="30" height="30"></p>
-          <script src="../../storage/app/public/js/app.js"></script>
+          <p class="mainContent__p"><img src="/storage/img/th.jpeg" width="30" height="30"></p>
+          <p class="mainContent__p"><img src="/storage/img/oDNO2.png" width="30" height="30"></p>
+          <p class="mainContent__p"><img src="/storage/img/dzen_logo_2.svg" width="30" height="30"></p>
         </div>
       </div>
     </div>
   </div>
-  <p class="bookTable text-center mainContent__p"><img src="/img/Стрелка.png" width="60" height="60"></p>
+  <p class="bookTable text-center mainContent__p"><img src="/storage/img/Стрелка.png" width="60" height="60"></p>
 </body>
 
 </html>
